@@ -1,0 +1,626 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@font-face {
+	font-family: "Avenir";
+	src: url(fonts/Avenir.ttc);
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    background-image:image;
+	
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#container {
+    display: grid;
+
+}
+
+background-image {
+	position: absolute;
+	width: 3010.54px;
+	height: 742px;
+	left: 0px;
+	top: -2px;}
+
+
+
+
+
+	
+
+
+.boxed h2,h3{
+	margin-left: -75px;
+	margin-top: -50px;
+	position:absolute;
+	width: 488px;
+	height: 110px;
+	left: 72px;
+	top: 327px;
+
+	
+	
+	font-family:"Avenir";
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 15px;
+	
+	background-color: transparent;
+	color: #FFFFFF;
+
+		text-align: left;
+		background-color: black;
+		opacity: 75%;
+		width: 676px;
+		height: 150px;
+		z-index: 1;
+
+	  }
+	  
+	
+h2 {
+	padding-top: 40px;
+	padding-left: 55px;
+	padding-right: 40px;
+}
+
+h3 {position: absolute;
+	width: 313px;
+	height: 28px;
+	left: 520px;
+	top: 475px;
+	background-color: transparent;
+	
+	font-family: 'Avenir';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 15px;
+	color: #FFFFFF;
+
+}
+
+h4 {font-family: 'Avenir';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 15px;
+	color: #FFFFFF;}
+
+
+
+
+
+	
+.clickable-area {	
+	position: absolute;
+	width: 81px;
+	height: 68px;
+	left: 1577px;
+	top: 125px;
+	 }
+
+.clickable-area1{	
+	position: absolute;
+	width: 81px;
+	height: 75px;
+	left: 1654px;
+	top: 332px;
+	 }
+
+.clickable-area2{	
+	position: absolute;
+	width: 81px;
+	height: 68px;
+	left: 1965px;
+	top: 125px;
+	 }
+
+.clickable-area3{	
+	position: absolute;
+	width: 90px;
+	height: 75px;
+	left: 2045px;
+	top: 332px;
+	 }
+
+
+.clickable-area4{	
+	position: absolute;
+	width: 87px;
+	height: 70px;
+	left: 2045px;
+	top: 610px;
+	 }	 
+
+.clickable-area5{	
+	position: absolute;
+	width: 75px;
+	height: 70px;
+	left: 1660px;
+	top: 610px;
+	 }
+
+.clickable-area6{	
+	position: absolute;
+	width: 81px;
+	height: 70px;
+	left: 2330px;
+	top: 122px;
+	 }
+
+.clickable-area7{	
+	position: absolute;
+	width: 81px;
+	height: 60px;
+	left: 2330px;
+	top: 474px;
+	 }
+
+.clickable-area8{	
+	position: absolute;
+	width: 75px;
+	height: 76px;
+	left: 2565px;
+	top: 330px;
+	 }
+
+.clickable-area9{	
+	position: absolute;
+	width: 75px;
+	height: 72px;
+	left: 2565px;
+	top: 607px;
+	 }
+
+.clickable-area10{	
+	position: absolute;
+	width: 81px;
+	height: 70px;
+	left: 2718px;
+	top: 122px;
+	 }
+
+.clickable-area11{	
+	position: absolute;
+	width: 89px;
+	height: 68px;
+	left: 2798px;
+	top: 404px;
+	 }
+
+
+
+
+.img2{
+	position: absolute;
+	width: 81px;
+	height: 75px;
+	left: 825px;
+	top: 332px;
+
+	opacity: 0;
+}
+
+.img3{
+	position: absolute;
+	width: 72px;
+	height: 68px;
+	left: 1062px;
+	top: 124px;
+	transform: scaleX(1.0);
+	opacity: 0;
+}
+
+
+
+.img4{
+	position: absolute;
+	width: 83px;
+	height: 76px;
+	left: 71px;
+	top: 533px;
+	opacity: 0;
+}
+
+
+.img5{
+	position: absolute;
+	width: 77px;
+	height: 79px;
+	left: 154px;
+	top: 607px;
+	opacity: 0;
+}
+
+.img6{
+	position: absolute;
+	width: 78px;
+	height: 74px;
+	left: 231px;
+	top: 533px;
+	opacity: 0;
+}
+
+.img7{
+	position: absolute;
+	width: 72px;
+	height: 73px;
+	left: 309px;
+	top: 460px;
+	opacity: 0;
+}
+
+.img8{
+	position: absolute;
+	width: 72px;
+	height: 68px;
+	left: 309px;
+	top: 608px;
+	opacity: 0;
+}
+
+.img9{
+	position: absolute;
+	width: 72px;
+	height: 70px;
+	left: 753px;
+	top: 258px;
+	opacity: 0;
+}
+
+.img10{
+	position: absolute;
+	width: 72px;
+	height: 70px;
+	left: 753px;
+	top: 405px;
+	opacity: 0;
+}
+
+.img11{
+	position: absolute;
+	width: 72px;
+	height: 72px;
+	left: 753px;
+	top: 535px;
+	opacity: 0;
+}
+
+.img12{
+	position: absolute;
+	width: 81px;
+	height: 72px;
+	left: 825px;
+	top: 123px;
+	opacity: 0;
+}
+
+.img13{
+	position: absolute;
+	width: 81px;
+	height: 69px;
+	left: 825px;
+	top: 188px;
+	opacity: 0;
+}
+
+.img14{
+	position: absolute;
+	width: 81px;
+	height: 75px;
+	left: 825px;
+	top: 330px;	
+	opacity: 0;
+}
+
+.img15{
+	position: absolute;
+	width: 81px;
+	height: 62px;
+	left: 825px;
+	top: 473px;
+	opacity: 0;
+}
+
+.img16{
+	position: absolute;
+	width: 77px;
+	height: 70px;
+	left: 906px;
+	top: 188px;
+	opacity: 0;
+}
+
+.img17{
+	position: absolute;
+	width: 77px;
+	height: 73px;
+	left: 906px;
+	top: 257px;	
+	opacity: 0;
+}
+
+.img18{
+	position: absolute;
+	width: 77px;
+	height: 70px;
+	left: 906px;
+	top: 404px;
+	opacity: 0;
+}
+
+.img19{
+	position: absolute;
+	width: 77px;
+	height: 74px;
+	left: 906px;
+	top: 533px;
+	opacity: 0;
+}
+
+.img20{
+	position: absolute;
+	width: 79px;
+	height: 67px;
+	left: 983px;
+	top: 56px;
+	opacity: 0;
+}
+
+.img21{
+	position: absolute;
+	width: 79px;
+	height: 69px;
+	left: 983px;
+	top: 188px;
+	opacity: 0;
+}
+
+.img22{
+	position: absolute;
+	width: 78px;
+	height: 72px;
+	left: 983px;
+	top: 258px;	
+	opacity: 0;
+}
+
+.img23{
+	position: absolute;
+	width: 79px;
+	height: 75px;
+	left: 982px;
+	top: 330px;
+	opacity: 0;
+}
+
+.img24{
+	position: absolute;
+	width: 77px;
+	height: 60px;
+	left: 984px;
+	top: 474px;
+	opacity: 0;
+}
+
+.img25{
+	position: absolute;
+	width: 72px;
+	height: 68px;
+	left: 1062px;
+	top: 123px;
+	opacity: 0;
+}
+
+.img26{
+	position: absolute;
+	width: 72px;
+	height: 67px;
+	left: 1062px;
+	top: 191px;
+	opacity: 0;
+}
+
+.img27{
+	position: absolute;
+	width: 72px;
+	height: 69px;
+	left: 1062px;
+	top: 405px;
+	opacity: 0;
+}
+
+.img28{
+	position: absolute;
+	width: 72px;
+	height: 72px;
+	left: 1062px;
+	top: 607px;
+	opacity: 0;
+}
+
+
+.img1:hover, .img2:hover , .img3:hover, .img4:hover, .img5:hover,
+.img6:hover, .img7:hover, .img8:hover, .img9:hover, .img10:hover,
+.img11:hover, .img12:hover, .img13:hover, .img14:hover, .img15:hover,
+.img16:hover, .img17:hover, .img18:hover, .img19:hover, .img20:hover,
+.img21:hover, .img22:hover, .img23:hover, .img24:hover, .img25:hover,
+.img26:hover, .img27:hover, .img28:hover
+{ opacity: 1;}
+
+
+.text{
+	background-color: rgba(0, 0, 0, 0);
+	position: absolute;
+	width: 400px;
+	top: 20px;
+	left: 20px;
+}
+
+.ep1{
+	position: absolute;
+	width: 81px;
+	height: 68px;
+	left: 1577px;
+	top: 125px;
+	opacity: 0; 
+}
+
+.ep2{
+	position: absolute;
+	width: 81px;
+	height: 75px;
+	left: 1654px;
+	top: 332px;
+	opacity: 0; 
+}
+
+.ep3{
+	position: absolute;
+	width: 81px;
+	height: 68px;
+	left: 1965px;
+	top: 125px;
+	opacity: 0; 
+}
+
+.ep4{
+	position: absolute;
+	width: 90px;
+	height: 75px;
+	left: 2045px;
+	top: 332px;
+	opacity: 0; 
+}
+
+.ep5{
+	position: absolute;
+	width: 87px;
+	height: 70px;
+	left: 2045px;
+	top: 610px;
+	opacity: 0; 
+}
+
+.ep6{
+	position: absolute;
+	width: 75px;
+	height: 70px;
+	left: 1660px;
+	top: 610px;
+	opacity: 0; 
+}
+
+
+.ep7{
+	position: absolute;
+	width: 81px;
+	height: 70px;
+	left: 2330px;
+	top: 122px;
+	opacity: 0; 
+}
+
+.ep8{
+	position: absolute;
+	width: 81px;
+	height: 60px;
+	left: 2330px;
+	top: 474px;
+	opacity: 0; 
+}
+
+.ep9{
+	position: absolute;
+	width: 75px;
+	height: 76px;
+	left: 2565px;
+	top: 330px;
+	opacity: 0; 
+}
+
+.ep10{
+	position: absolute;
+	width: 75px;
+	height: 72px;
+	left: 2565px;
+	top: 607px;
+	opacity: 0; 
+}
+
+.ep11{
+	position: absolute;
+	width: 81px;
+	height: 70px;
+	left: 2718px;
+	top: 122px;
+	opacity: 0; 
+}
+
+.ep12{
+	position: absolute;
+	width: 89px;
+	height: 68px;
+	left: 2798px;
+	top: 404px;
+	opacity: 0; 
+}
+
+  .ep1:hover, .ep2:hover, .ep3:hover, .ep4:hover, .ep5:hover,
+  .ep6:hover, .ep7:hover, .ep8:hover, .ep9:hover, .ep10:hover, 
+  .ep11:hover,.ep12:hover
+  	 {opacity: 1;}
+
+
+
+
+
+.image{
+	width: 100%;
+	height: 100%;
+}
